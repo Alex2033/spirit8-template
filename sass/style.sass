@@ -1,0 +1,435 @@
+* 
+	-moz-box-sizing: border-box /* Для Firefox */
+	-webkit-box-sizing: border-box /* Для Safari и Chrome */
+	box-sizing: border-box /* Для IE и Opera */
+
+body
+	padding: 0
+	margin: 0
+	font: 14px/24px "Open Sans", sans-serif
+	color: #6c6c6c
+	font-weight: 400
+	
+
+ol, ul
+	list-style-type: none
+	padding: 0
+	margin: 0
+
+a, a:hover
+	text-decoration: none
+	color: #fff
+
+h2
+	text-transform: uppercase
+	font-size: 44px
+	line-height: 24px
+	color: #fff
+	font-weight: 200
+
+.section
+	text-align: center
+	padding-top: 90px
+	padding-bottom: 80px
+
+.wrapper
+	position: relative
+
+.main-header
+	background-color: #111
+	//height: 100vh // Стоит ли использовать? И стоит ли в медиа ипользовать?
+	min-height: 790px
+	text-align: center
+	position: relative
+
+.top-line
+	margin-top: 50px
+	margin-bottom: 210px
+
+.logo
+	float: left
+
+.head-nav
+	line-height: 18px
+	text-transform: uppercase
+	font-family: "Lato", sans-serif
+	float: right
+	li
+		display: inline-block
+		margin-right: 18px
+		&:last-child
+			margin-right: 0
+	a
+			display: block
+			padding-bottom: 5px
+	a:hover, .active
+			color: #fcac45
+			-moz-transition: ease .25s
+			-o-transition: ease .25s
+			-webkit-transition: ease .25s
+			border-bottom: 3px solid #FCAC45
+
+.touch-menu 
+	-moz-user-select: none
+	-o-user-select: none
+	-khtml-user-select: none
+	-webkit-user-select: none
+	user-select: none
+	outline: none
+	margin-top: -5px
+	font-size: 26px
+	display: none
+	border: 0
+	&:hover
+		color: #fcac45
+		-moz-transition: ease .25s
+		-o-transition: ease .25s
+		-webkit-transition: ease .25s
+
+.h1
+	margin-bottom: 18px
+	text-transform: uppercase
+	color: #999
+	font-size: 44px
+	line-height: 24px
+	font-weight: 300
+	span
+		color: #FCAC45
+		font-weight: bold
+
+.header-info
+	opacity: 0.8
+	color: #c3c3c3
+	font-size: 20px
+	font-weight: 300
+	.span-bold
+		color: #fff
+
+.span-bold
+	font-weight: bold
+
+.anchor
+	display: inline-block
+	margin-top: 275px
+	margin-bottom: 90px
+
+.anchor-style
+	font-size: 25px
+	opacity: .65
+	&:hover
+		color: #fcac45
+		transition: .45s
+		opacity: .9
+
+.about
+	font-size: 18px
+	line-height: 25px
+	text-align: left
+	padding-top: 90px
+
+.mac-img
+	background-image: url("../img/mac.png")
+	background-repeat: no-repeat
+	background-size: cover
+	width: 708px
+	height: 504px
+	margin-top: 15px
+
+.about-section-h4
+	text-transform: uppercase
+	color: #636363
+	font-size: 20px
+	line-height: 37px
+	margin: 0
+	font-weight: 400
+
+.about-section-h3
+	font-size: 34px
+	line-height: 37px
+	margin: 0
+	color: #222
+	font-weight: 400
+	text-transform: uppercase
+
+.underline
+	background-image: url("../img/underline.png")
+	width: 99px
+	height: 5px
+	margin-top: 15px
+	margin-bottom: 25px
+
+.about .underline
+	margin-left: 0
+	margin-top: 15px
+	margin-bottom: 25px
+
+.about p:last-child
+		margin-bottom: 40px
+
+.about .fa-dot-circle-o
+	margin-right: 10px
+
+.features
+	margin-bottom: 50px
+
+.semibold
+	font-weight: 600
+
+.light
+	font-weight: 200
+
+.feature-description
+	font-style: italic
+
+.btn
+	border-radius: 2px
+	font-size: 12px
+	color: #6c6c6c
+	display: inline-block
+	text-transform: uppercase
+	border: 1px solid #7F7F7F
+	padding: 10px 25px
+	margin-bottom: 40px
+
+	.fa-shopping-bag
+		margin-right: 10px
+	&:hover
+		color: #e48209
+		border-color: #e48209
+		-webkit-transition: all .25s
+     	-moz-transition: all .25s
+     	-o-transition: all .25s
+     	transition: all .25s
+
+.team
+	background-color: #070707
+	color: #fff
+
+.bx-wrapper
+	margin-top: 100px
+
+.team-item-img
+	margin-right: auto
+	margin-left: auto
+	height: 128px
+	width: 128px
+	border-radius: 64px
+	background-color: #D7D7D7
+	margin-bottom: 20px
+
+.team-item
+	span
+		display: block
+		
+	.span-bold
+		font-size: 20px
+		
+	.team-member-description
+		font-size: 16px
+		margin-bottom: 30px
+
+.services h2
+		color: #222222
+
+.underline
+	margin: 0 auto
+
+.underline-small
+	margin-top: 10px
+	width: 67px
+	height: 5px
+	margin-right: auto
+	margin-left: auto
+	opacity: 0.55
+
+.head-section-description
+	font-size: 16px
+	font-style: italic
+	margin-top: 30px
+
+.service-wrapper
+	margin-top: 90px
+
+.service-item-img
+	margin: 0 auto
+	height: 126px
+	width: 126px
+	border-radius: 63px
+	border: 6px solid #FCAC45
+
+.service-item 
+	color: #222
+	margin-bottom: 20px
+	i
+		color: #000
+		font-size: 55px
+		padding-top: 30px
+	& .fa-mobile
+		font-size: 77px
+		padding-top: 20px
+	p
+		line-height: 21px
+
+.service-item-header
+	text-transform: uppercase
+	font-size: 25px
+	line-height: 24px
+	font-weight: 600
+	margin-top: 25px
+	margin-bottom: 17px
+	
+.bx-viewport
+	min-height: 1px
+
+.clients
+	background-color: #0B0B0B
+	.bx-viewport
+		padding-bottom: 90px
+		& li img 
+			opacity: 0.55
+			display: inline-block
+	.bx-wrapper
+		background-color: #0B0B0B
+
+.client-item
+	margin-left: auto
+	margin-right: auto
+	margin-bottom: 20px
+
+.portfolio
+	text-align: center
+	padding-top: 90px
+	padding-bottom: 80px
+	h2
+		color: #222222
+	.tabs
+		float: right
+	.tab
+		cursor: pointer
+		font-size: 18px
+		padding-right: 15px
+		padding-left: 15px
+		border-right: 1px solid #6c6c6c
+		&:first-child
+			padding-left: 0
+		&:last-child
+			border-right: none
+			padding-right: 0
+	.tab-active
+		font-weight: 700
+	.tab_item
+		display: none
+		&:first-child
+			display: block
+
+.portfolio-item-wrapper
+	margin-top: 80px
+
+.filter-span 
+	float: left
+	text-transform: uppercase
+	font-size: 18px
+	line-height: 33px
+	font-weight: 700
+
+.tab_content
+	padding-top: 15px
+
+.portfolio-item
+	margin-top: 30px
+	display: block
+	background-repeat: no-repeat
+	background-size: cover
+	width: 263px
+	height: 237px
+
+.testimonials
+	background-color: #070707
+	.bx-viewport
+		padding-bottom: 45px
+	.bxslider
+		li
+			font-size: 18px
+		p
+			text-transform: uppercase
+			margin-bottom: 45px
+			font-weight: 700
+			color: #e7e7e7
+	.testimonials-author
+		color: #b2b2b2
+		font-weight: 700
+
+.contact
+	h2
+		color: #222
+	label
+		float: left
+
+.contact-form
+	margin-top: 70px
+
+.red
+	color: red
+
+.form-control
+	display: block
+	width: 100%
+	height: 42px
+	padding: 6px 12px;
+	border: 1px solid #999999
+	color: #6c6c6c
+	font-weight: 700
+
+.message-form
+	margin-top: 20px
+
+textarea.form-control
+	height: 165px
+	resize: none
+
+.form-btn
+	margin-top: 30px
+	font-size: 16px
+	background-color: #FCAC45
+	text-transform: uppercase
+	font-weight: 700
+	padding: 12px 60px
+	color: #fff
+	float: right
+	outline: none
+	border: none
+	cursor: pointer
+	&:hover
+		background-color: #fbb760
+		transition: all .25s
+	&:active
+		background-color: #efa341
+
+.main-footer
+	min-height: 92px
+	background-color: #222222
+	color: #B2B2B2
+
+.footer-text
+	text-transform: uppercase
+	font-size: 12px
+	padding-top: 40px
+	padding-bottom: 40px
+	color: #b2b2b2
+
+.social-list
+	padding-top: 35px
+	padding-bottom: 40px
+	float: right
+	li
+		display: inline-block
+		margin-right: 10px
+		a
+			color: #b2b2b2
+			&:hover
+				transition: all .35s
+				color: #FCAC45
+		&:last-child
+			margin-right: 0
+	.footer-icon-size
+		font-size: 16px
