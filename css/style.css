@@ -45,6 +45,10 @@ h2 {
   margin-bottom: 210px; }
 
 .logo {
+  display: block;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
   float: left; }
 
 .head-nav {
@@ -75,7 +79,7 @@ h2 {
   user-select: none;
   outline: none;
   margin-top: -5px;
-  font-size: 26px;
+  font-size: 32px;
   display: none;
   border: 0; }
   .touch-menu:hover {
@@ -169,6 +173,10 @@ h2 {
 
 .features {
   margin-bottom: 50px; }
+  .features li {
+    margin-bottom: 15px; }
+    .features li:last-child {
+      margin-bottom: 0; }
 
 .semibold {
   font-weight: 600; }
