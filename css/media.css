@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (min-width: 320px) and (max-width: 480px) {
 	.filter-span {
 		float: none;
@@ -235,4 +236,227 @@
 		width: 604px;
 		height: 400px;
 	}
+=======
+@media (min-width: 320px) and (max-width: 480px) {
+	.filter-span {
+		float: none;
+	}
+
+	.portfolio .tabs {
+		float: none;
+	}
+
+	.social-list {
+		float: none;
+		text-align: center;
+		padding-top: 15px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.footer-text {
+		text-align: center;
+		padding-bottom: 0;
+	}
+
+	.social-list {
+		float: none;
+		text-align: center;
+		padding-top: 15px;
+	}
+}
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+	.portfolio-item {
+		width: 135px;
+		height: 120px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+	.portfolio-item {
+		width: 155px;
+		height: 140px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.main-header {
+		min-height: 480px;
+	}
+
+	.top-line {
+		margin-bottom: 50px;
+	}
+
+	.h1 {
+		font-size: 40px;
+		line-height: 44px;
+	}
+
+	.header-info {
+		line-height: 35px;
+	}
+
+	.anchor {
+		margin-top: 35px;
+	}
+
+	.about {
+		text-align: center;
+		padding-top: 35px;
+	}
+
+	.about .underline {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.about-section-h4 {
+		font-size: 15px;
+		line-height: 32px;
+	}
+
+	.about-section-h3 {
+		font-size: 29px;
+		line-height: 32px;
+	}
+
+	.team {
+		padding-top: 40px;
+	}
+
+	.services {
+		padding-top: 40px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+	.portfolio-item {
+		width: 211px;
+		height: 178px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.filter-span {
+		float: none;
+	}
+
+	.portfolio .tabs {
+		float: none;
+	}
+}
+
+@media (max-width: 580px){
+	h2 {
+		font-size: 40px;
+		line-height: 44px;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 768px){
+	.portfolio-item {
+		width: 271px;
+		height: 238px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.social-list {
+		float: none;
+		text-align: center;
+		padding-top: 35px;
+	}
+}
+
+@media (max-width: 768px) {
+	.mac-img {
+		display: none;
+	}
+
+	.head-nav {
+		display: none;
+	}
+
+	.head-nav li {
+		display: block;
+	}
+
+	.head-nav li a {
+		margin-bottom: 10px;
+	}
+
+	.head-nav li a:hover {
+		border-bottom: none;
+	}
+
+	.head-nav .active {
+		border-bottom: none;
+	}
+
+	.touch-menu {
+		display: inline-block;
+		float: right;
+	}
+
+	.service-item {
+		margin-bottom: 40px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.mac-img {
+		width: 506px;
+		height: 408px;
+		background-image: url("../img/mac-noshadow.png");
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 40px;
+	}
+	
+	.btn {
+		position: relative;
+    	left: 37%;
+	}
+
+	.team-item {
+		min-height: 360px !important;
+		position: relative;
+	}
+	.team-item p {
+		position: absolute;
+		bottom: 0;
+	}
+
+	.service-item-header {
+		font-size: 19px;
+	}
+
+	.portfolio-item {
+		width: 161px;
+		height: 148px;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.portfolio-item {
+		width: 211px;
+		height: 198px;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+	.mac-img {
+		width: 604px;
+		height: 400px;
+	}
+>>>>>>> d171486ae3fb9b5336f5ffd96773188e2eb3bcf0
 }
