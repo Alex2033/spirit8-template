@@ -222,15 +222,28 @@ h2 {
   background-color: #D7D7D7;
   margin-bottom: 20px; }
 
-.team-item span {
-  display: block; }
+.flex-wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap; }
 
-.team-item .span-bold {
-  font-size: 20px; }
-
-.team-item .team-member-description {
-  font-size: 16px;
-  margin-bottom: 30px; }
+.team-item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column; }
+  .team-item span {
+    display: block; }
+  .team-item .span-bold {
+    font-size: 20px; }
+  .team-item .team-member-description {
+    font-size: 16px;
+    margin-bottom: 20px; }
 
 .services h2 {
   color: #222222; }
@@ -282,9 +295,6 @@ h2 {
   font-weight: 600;
   margin-top: 25px;
   margin-bottom: 17px; }
-
-.bx-viewport {
-  min-height: 1px; }
 
 .clients {
   background-color: #0B0B0B; }

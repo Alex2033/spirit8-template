@@ -10,7 +10,6 @@ body
 	color: #6c6c6c
 	font-weight: 400
 	
-
 ol, ul
 	list-style-type: none
 	padding: 0
@@ -225,16 +224,29 @@ h2
 	background-color: #D7D7D7
 	margin-bottom: 20px
 
+.flex-wrapper
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	flex-wrap: wrap
+
 .team-item
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	flex-direction: column
 	span
 		display: block
-		
 	.span-bold
 		font-size: 20px
 		
 	.team-member-description
 		font-size: 16px
-		margin-bottom: 30px
+		margin-bottom: 20px
 
 .services h2
 		color: #222222
@@ -286,9 +298,6 @@ h2
 	font-weight: 600
 	margin-top: 25px
 	margin-bottom: 17px
-	
-.bx-viewport
-	min-height: 1px
 
 .clients
 	background-color: #0B0B0B
