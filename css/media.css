@@ -28,6 +28,16 @@
 		float: none;
 		text-align: center;
 		padding-top: 15px;
+		font-size: ;
+	}
+
+	.social-list .footer-icon-size {
+		font-size: 19px;
+	}
+
+	.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a {
+		width: 16px;
+		height: 16px;
 	}
 }
 
@@ -65,13 +75,6 @@
 }
 
 @media (max-width: 480px) {
-	.main-header {
-		min-height: 480px;
-	}
-
-	.top-line {
-		margin-bottom: 50px;
-	}
 
 	.h1 {
 		font-size: 40px;
@@ -84,11 +87,6 @@
 
 	.about {
 		padding-top: 35px;
-	}
-
-	.about .underline {
-		margin-right: auto;
-		margin-left: auto;
 	}
 
 	.about-section-h4 {
@@ -128,6 +126,15 @@
 }
 
 @media (max-width: 665px){
+	.main-header {
+		min-height: 480px;
+	}
+
+	.top-line {
+		margin-bottom: 50px;
+	}
+
+
 	h2 {
 		font-size: 40px;
 		line-height: 44px;
