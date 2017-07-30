@@ -301,11 +301,9 @@ h2 {
 
 .clients {
   background-color: #0B0B0B; }
-  .clients .bx-viewport {
-    padding-bottom: 90px; }
-    .clients .bx-viewport li img {
-      opacity: 0.55;
-      display: inline-block; }
+  .clients .bx-viewport li img {
+    opacity: 0.55;
+    display: inline-block; }
   .clients .bx-wrapper {
     background-color: #0B0B0B; }
 
